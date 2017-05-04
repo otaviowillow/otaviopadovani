@@ -4,48 +4,47 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: "Nunito Sans", sans-serif;
+$base-font-family: 'Muli', sans-serif;;
 $base-font-size:   16px;
 $base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$alternative-font: "Lateef", cursive;
+$alternative-font: 'Merriweather', serif;
 
 $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: linear-gradient(-135deg, #3023AE 0%, #53A0FE 47%, #B4ED50 100%);
-$brand-color:      #2a7ae2;
+$brand-color:      white;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    1440px;
+$content-width:    1320px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
 
-
+@mixin center-align() {
+    float: none;
+    max-width: $content-width;
+    margin: 0 auto;
+    padding-top: 3%;
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "sidebar",
+        "post",
         "home"
 ;

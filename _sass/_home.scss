@@ -5,11 +5,11 @@
 }
 
 .home {
+	@include center-align;
 	.post-list {
-		width: 85%;
-		padding: 0 0 0 15%;
+		width: 90%;
+		padding: 0 0 0 10%;
 		text-align: right;
-		border: 1px solid black;
 	}
 	.post {
 		display: inline-block;
@@ -26,7 +26,6 @@
 			overflow: hidden;
 			width: 100%;
 			height: 615px;
-			border: 1px solid red;
 		}
 	}
 	.categories {
@@ -47,23 +46,18 @@
 		}
 		.html {
 			@include category("/uploads/html.svg");
-			border: 1px solid red;
 		}
 		.sass, .css, .stylus, .less {
 			@include category("/uploads/css.svg");
-			border: 1px solid red;
 		}
 		.jquery, .react, .vue, .polymer {
 			@include category("/uploads/js.svg");
-			border: 1px solid red;
 		}
 		.ui, .ux {
 			@include category("/uploads/psd.svg");
-			border: 1px solid red;
 		}
 		.firebase {
 			@include category("/uploads/db.svg");
-			border: 1px solid red;
 		}
 	}
 }

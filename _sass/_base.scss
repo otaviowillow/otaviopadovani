@@ -1,12 +1,14 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
+    // font-family: $base-font-family;
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     margin: 0;
     padding: 0;
 }
 
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    // font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-image: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -28,16 +30,20 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
+
 li {
     list-style: none;
 }
 
+a {
+    color: $brand-color;
+    text-decoration: none;
+}
+
 .page-content {
     position: relative;
-    float: none;
-    max-width: $content-width;
-    margin: 0 auto;
 }
+
 .wrapper {
     position: relative;
     z-index: 1;
