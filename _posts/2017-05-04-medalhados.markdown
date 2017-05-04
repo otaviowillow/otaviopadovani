@@ -7,7 +7,7 @@ categories:
 - ux
 - html
 - sass
-header-image: "/uploads/opposition-header23.jpg"
+header-image: "/uploads/medalhados.jpeg\n"
 ---
 
 asdasdsad
