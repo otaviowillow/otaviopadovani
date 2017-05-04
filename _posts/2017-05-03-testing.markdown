@@ -1,6 +1,12 @@
 ---
 title: testing
 date: 2017-05-03 18:29:00 Z
+categories:
+- html
+- css
+- vue
+- firebase
+- UX/UI
 header-image: "/uploads/opposition-header23.jpg"
 ---
 
