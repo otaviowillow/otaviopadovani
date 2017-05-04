@@ -1,0 +1,109 @@
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 300 16px/1.5 "Nunito Sans", sans-serif;
+  color: #111;
+  background-image: linear-gradient(-135deg, #3023AE 0%, #53A0FE 47%, #B4ED50 100%);
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal; }
+
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl {
+  margin-bottom: 15px; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+li {
+  list-style: none; }
+
+.page-content {
+  position: relative;
+  float: none;
+  max-width: 1440px;
+  margin: 0 auto; }
+
+.wrapper {
+  position: relative;
+  z-index: 1; }
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  font-family: "Lateef", cursive;
+  width: 1440px;
+  margin-left: -720px;
+  z-index: 2; }
+  .sidebar h3 {
+    color: white; }
+
+.home .post-list {
+  width: 85%;
+  padding: 0 0 0 15%;
+  text-align: right;
+  border: 1px solid black; }
+.home .post {
+  display: inline-block;
+  width: 520px;
+  padding: 0 0 3% 3%; }
+  .home .post a {
+    text-decoration: none; }
+  .home .post figure {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 615px;
+    border: 1px solid red; }
+.home .categories {
+  background: white;
+  display: flex;
+  padding: 10px 0; }
+  .home .categories li {
+    display: none;
+    flex: 1 auto;
+    text-align: center;
+    padding: 35px 0 5px 0; }
+  .home .categories span {
+    font-size: .5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    vertical-align: bottom; }
+  .home .categories .html {
+    background: url("/uploads/html.svg") center no-repeat;
+    background-size: auto 100%;
+    display: inline-block;
+    border: 1px solid red; }
+  .home .categories .sass, .home .categories .css, .home .categories .stylus, .home .categories .less {
+    background: url("/uploads/css.svg") center no-repeat;
+    background-size: auto 100%;
+    display: inline-block;
+    border: 1px solid red; }
+  .home .categories .jquery, .home .categories .react, .home .categories .vue, .home .categories .polymer {
+    background: url("/uploads/js.svg") center no-repeat;
+    background-size: auto 100%;
+    display: inline-block;
+    border: 1px solid red; }
+  .home .categories .ui, .home .categories .ux {
+    background: url("/uploads/psd.svg") center no-repeat;
+    background-size: auto 100%;
+    display: inline-block;
+    border: 1px solid red; }
+  .home .categories .firebase {
+    background: url("/uploads/db.svg") center no-repeat;
+    background-size: auto 100%;
+    display: inline-block;
+    border: 1px solid red; }

@@ -1,0 +1,69 @@
+@mixin category($background: none) {
+	background: url($background) center no-repeat;
+	background-size: auto 100%;
+	display: inline-block;
+}
+
+.home {
+	.post-list {
+		width: 85%;
+		padding: 0 0 0 15%;
+		text-align: right;
+		border: 1px solid black;
+	}
+	.post {
+		display: inline-block;
+		width: 520px;
+		padding: 0 0 3% 3%;
+		a {
+			text-decoration: none;
+		}
+		figure {
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+			height: 615px;
+			border: 1px solid red;
+		}
+	}
+	.categories {
+		background: white;
+		display: flex;
+		padding: 10px 0;
+		li {
+			display: none;
+			flex: 1 auto;
+			text-align: center;
+			padding: 35px 0 5px 0;
+		}
+		span {
+			font-size: .5em;
+			font-weight: 700;
+			text-transform: uppercase;
+			vertical-align: bottom;
+		}
+		.html {
+			@include category("/uploads/html.svg");
+			border: 1px solid red;
+		}
+		.sass, .css, .stylus, .less {
+			@include category("/uploads/css.svg");
+			border: 1px solid red;
+		}
+		.jquery, .react, .vue, .polymer {
+			@include category("/uploads/js.svg");
+			border: 1px solid red;
+		}
+		.ui, .ux {
+			@include category("/uploads/psd.svg");
+			border: 1px solid red;
+		}
+		.firebase {
+			@include category("/uploads/db.svg");
+			border: 1px solid red;
+		}
+	}
+}
