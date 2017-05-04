@@ -6,7 +6,7 @@ categories:
 - css
 - vue
 - firebase
-- UX/UI
+- ui
 header-image: "/uploads/opposition-header23.jpg"
 ---
 
