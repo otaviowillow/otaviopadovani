@@ -1,6 +1,12 @@
 ---
 title: Opposition
 date: 2017-05-05 04:53:00 Z
+categories:
+- recommended
+tags:
+- wp
+- sass
+- js
 header-image: "/uploads/opposition-header23.jpg"
 ---
 
