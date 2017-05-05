@@ -8,6 +8,8 @@ tags:
 - sass
 - js
 header-image: "/uploads/opposition-header23.jpg"
+client: BBTV
+website: http://opposition.tv
 ---
 
 The biggest network for hip hop on YouTube, Opposition helps content creators generate substantial revenue streams in online video. Backed by BBTV, the largest video property behind YouTube & Facebook.
