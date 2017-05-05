@@ -4,83 +4,87 @@
     <title>Otavio's Portfolio</title>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 May 2017 18:06:26 +0000</pubDate>
-    <lastBuildDate>Thu, 04 May 2017 18:06:26 +0000</lastBuildDate>
+    <pubDate>Fri, 05 May 2017 06:39:02 +0000</pubDate>
+    <lastBuildDate>Fri, 05 May 2017 06:39:02 +0000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
-        <title>Medalhados</title>
-        <description>&lt;p&gt;asdasdsad&lt;/p&gt;
+        <title>Willow</title>
+        <description>&lt;p&gt;Willow is&lt;/p&gt;
 </description>
-        <pubDate>Thu, 04 May 2017 01:22:00 +0000</pubDate>
+        <pubDate>Fri, 05 May 2017 06:09:00 +0000</pubDate>
+        <link>http://localhost:4000/posts/willow/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/willow/</guid>
+        
+        <category>threejs</category>
+        
+        <category>webgl</category>
+        
+        <category>ui</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Medalhados</title>
+        <description>&lt;p&gt;Medalhados is&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 May 2017 04:56:00 +0000</pubDate>
         <link>http://localhost:4000/posts/medalhados/</link>
         <guid isPermaLink="true">http://localhost:4000/posts/medalhados/</guid>
-        
-        
-        <category>firebase</category>
         
         <category>vue</category>
         
         <category>ux</category>
         
-        <category>html</category>
+        <category>stylus</category>
         
-        <category>sass</category>
+        <category>firebase</category>
+        
         
       </item>
     
       <item>
         <title>Opposition</title>
-        <description>&lt;p&gt;Whoa!!!&lt;/p&gt;
+        <description>&lt;p&gt;The biggest network for hip hop on YouTube, Opposition helps content creators generate substantial revenue streams in online video. Backed by BBTV, the largest video property behind YouTube &amp;amp; Facebook.&lt;/p&gt;
+
+&lt;p&gt;Opposition works with artists, producers, videographers, labels, and sites of all sizes. They build a support system around quality content creators who are looking to grow their presence online.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-cool-parallax-effect-in-the-home-section-was-done--using-a-small-library-called-parallaxjs&quot;&gt;The cool parallax effect in the home section was done  using a small library called Parallax.js&lt;/h1&gt;
+
+&lt;p&gt;The css was compiled in &lt;strong&gt;SASS&lt;/strong&gt; and the code is pure &lt;strong&gt;semantic HTML 5&lt;/strong&gt;, focusing on reusability of elements and simple componentization. It uses &lt;strong&gt;Gulp&lt;/strong&gt; as a package manager and &lt;strong&gt;Wordpress&lt;/strong&gt; as CMS.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 04 May 2017 01:21:00 +0000</pubDate>
+        <pubDate>Fri, 05 May 2017 04:53:00 +0000</pubDate>
         <link>http://localhost:4000/posts/opposition/</link>
         <guid isPermaLink="true">http://localhost:4000/posts/opposition/</guid>
         
-        
-        <category>html</category>
+        <category>wp</category>
         
         <category>sass</category>
         
-        <category>jquery</category>
+        <category>js</category>
+        
+        
+        <category>recommended</category>
         
       </item>
     
       <item>
         <title>DonorSee</title>
-        <description>&lt;p&gt;Donorsesd&lt;/p&gt;
+        <description>&lt;p&gt;DonorSee is&lt;/p&gt;
 </description>
-        <pubDate>Thu, 04 May 2017 01:21:00 +0000</pubDate>
+        <pubDate>Fri, 05 May 2017 04:52:00 +0000</pubDate>
         <link>http://localhost:4000/posts/donorsee/</link>
         <guid isPermaLink="true">http://localhost:4000/posts/donorsee/</guid>
-        
         
         <category>vue</category>
         
         <category>stylus</category>
         
-        <category>html</category>
-        
-      </item>
-    
-      <item>
-        <title>testing</title>
-        <description>&lt;p&gt;Tessst&lt;/p&gt;
-</description>
-        <pubDate>Wed, 03 May 2017 18:29:00 +0000</pubDate>
-        <link>http://localhost:4000/posts/testing/</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/testing/</guid>
+        <category>stripe</category>
         
         
-        <category>html</category>
-        
-        <category>css</category>
-        
-        <category>vue</category>
-        
-        <category>firebase</category>
-        
-        <category>ui</category>
+        <category>recommended</category>
         
       </item>
     

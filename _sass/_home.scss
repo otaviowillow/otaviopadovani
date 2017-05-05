@@ -5,15 +5,16 @@
 }
 
 .home {
-	@include center-align;
 	.post-list {
+		@include center-align;
 		width: 90%;
-		padding: 0 0 0 10%;
+		padding: 3% 2% 0 11%;
 		text-align: right;
 	}
 	.post {
 		display: inline-block;
-		width: 520px;
+		// width: 520px;
+		width: 40%;
 		padding: 0 0 3% 3%;
 		a {
 			text-decoration: none;
@@ -26,9 +27,12 @@
 			overflow: hidden;
 			width: 100%;
 			height: 615px;
+		    @include media-query($on-palm) {
+		        width: 220px;
+		    }
 		}
 	}
-	.categories {
+	.tags {
 		background: white;
 		display: flex;
 		padding: 10px 0;
@@ -44,13 +48,13 @@
 			text-transform: uppercase;
 			vertical-align: bottom;
 		}
-		.html {
+		.html, .wp, .jekyll {
 			@include category("/uploads/html.svg");
 		}
 		.sass, .css, .stylus, .less {
 			@include category("/uploads/css.svg");
 		}
-		.jquery, .react, .vue, .polymer {
+		.jquery, .react, .vue, .polymer, .threejs, .webgl {
 			@include category("/uploads/js.svg");
 		}
 		.ui, .ux {
@@ -58,6 +62,20 @@
 		}
 		.firebase {
 			@include category("/uploads/db.svg");
+		}
+	}
+
+	.about {
+		background-image: linear-gradient(-180deg, #494949 0%, #222222 100%);
+		overflow: auto;
+		margin: -5% auto -10% auto;
+		p {
+			@include title-linear-gradient(#FBDA61, #F76B1C);
+			float: right;
+			font-size: 1.8em;
+			line-height: 1.4em;
+			font-weight: 900;
+			padding: 8% 20% 14% 7%;
 		}
 	}
 }

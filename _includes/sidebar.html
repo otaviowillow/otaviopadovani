@@ -1,11 +1,15 @@
+{% if page.title %}
 <div class="sidebar">
+{% else %}
+<div class="sidebar sticky">
+{% endif %}
 	<aside>
-		<h1><img src="/uploads/logo.svg"></h1>
+		<h1><a href="/"><img src="/uploads/logo.svg"></a></h1>
 		<h3>13+ years of experience in Software Development, most of them as a Front End Developer.</h3>
 
 		<ul>
-			<li><a href="">604 992 7822</a></li>
-			<li><a href="">op@willowcreative.io</a></li>
+			<li><img src="/uploads/telephone.svg"> <a href="">604 992 7822</a></li>
+			<li><img src="/uploads/at.svg"> <a href="">op@willowcreative.io</a></li>
 		</ul>
 	</aside>
 </div>

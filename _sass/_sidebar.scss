@@ -1,23 +1,36 @@
 .sidebar {
-	position: fixed;
+	position: absolute;
 	top: 8%;
-	left: 50%;
+	left: 52%;
 	font-family: $alternative-font;
-	width: $content-width;
-	margin-left: -$content-width / 2;
+	max-width: $content-width;
+	width: 100%;
+	transform: translate(-50%, 0);
 	z-index: 2;
 	pointer-events: none;
 	aside {
-		width: 20%;
+		width: 320px;
 		pointer-events: all;
 	}
 	h3 {
 		color: white;
 		font-size: 1.4em;
 		font-style: italic;
+		line-height: 1.6em;
+		padding: 10px 0;
 	}
 	li {
 		font-weight: 700;
 		color: white;
+		padding-bottom: 5px;
+		img {
+			height: 20px;
+		}
+		a {
+			vertical-align: middle;
+		}
+	}
+	&.sticky {
+		position: fixed;
 	}
 }
