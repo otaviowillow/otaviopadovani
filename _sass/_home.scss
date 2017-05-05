@@ -8,7 +8,7 @@
 	.post-list {
 		@include center-align;
 		width: 90%;
-		padding: 3% 2% 0 8%;
+		padding: 3% 2% 0 11%;
 		text-align: right;
 	}
 	.post {
@@ -16,9 +16,6 @@
 		// width: 520px;
 		width: 40%;
 		padding: 0 0 3% 3%;
-	    @include media-query($on-palm) {
-	        width: 320px;
-	    }
 		a {
 			text-decoration: none;
 		}
@@ -57,7 +54,7 @@
 		.sass, .css, .stylus, .less {
 			@include category("/uploads/css.svg");
 		}
-		.jquery, .react, .vue, .polymer {
+		.jquery, .react, .vue, .polymer, .threejs, .webgl {
 			@include category("/uploads/js.svg");
 		}
 		.ui, .ux {
@@ -78,7 +75,7 @@
 			font-size: 1.8em;
 			line-height: 1.4em;
 			font-weight: 900;
-			padding: 2% 7% 10% 7%;
+			padding: 8% 20% 14% 7%;
 		}
 	}
 }

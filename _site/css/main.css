@@ -70,11 +70,16 @@ a {
     padding: 10px 0; }
   .sidebar li {
     font-weight: 700;
-    color: white; }
+    color: white;
+    padding-bottom: 5px; }
+    .sidebar li img {
+      height: 20px; }
+    .sidebar li a {
+      vertical-align: middle; }
   .sidebar.sticky {
     position: fixed; }
 
-.post header {
+.post .post-header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -84,15 +89,15 @@ a {
   align-items: flex-end;
   width: 96%;
   padding: 0 2%; }
-  .post header .details {
+  .post .post-header .details {
     text-align: right; }
-  .post header h2, .post header li {
+  .post .post-header h2, .post .post-header li {
     font-weight: 900;
     text-transform: uppercase;
     color: white; }
-  .post header h2 {
+  .post .post-header h2 {
     font-size: 6em; }
-  .post header li {
+  .post .post-header li {
     font-size: 2.5em; }
 .post .post-content {
   float: none;
@@ -102,6 +107,22 @@ a {
   padding: 3% 3% 3% 3%;
   background: white;
   margin-bottom: 3%; }
+  .post .post-content header {
+    display: flex;
+    margin-bottom: 30px; }
+    .post .post-content header h3 {
+      flex: 1 auto; }
+      .post .post-content header h3:last-child {
+        text-align: right; }
+    .post .post-content header a {
+      color: #4FBEF9; }
+  .post .post-content h1 {
+    background: transparent;
+    background: -webkit-linear-gradient(#4FBEF9, #C1EE67);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 1.7em; }
 
 .home .post-list {
   float: none;
@@ -110,15 +131,12 @@ a {
   margin: 0 auto;
   padding: 0% 0% 0% 0%;
   width: 90%;
-  padding: 3% 2% 0 8%;
+  padding: 3% 2% 0 11%;
   text-align: right; }
 .home .post {
   display: inline-block;
   width: 40%;
   padding: 0 0 3% 3%; }
-  @media screen and (max-width: 600px) {
-    .home .post {
-      width: 320px; } }
   .home .post a {
     text-decoration: none; }
   .home .post figure {
@@ -154,7 +172,7 @@ a {
     background: url("/uploads/css.svg") center no-repeat;
     background-size: auto 100%;
     display: inline-block; }
-  .home .tags .jquery, .home .tags .react, .home .tags .vue, .home .tags .polymer {
+  .home .tags .jquery, .home .tags .react, .home .tags .vue, .home .tags .polymer, .home .tags .threejs, .home .tags .webgl {
     background: url("/uploads/js.svg") center no-repeat;
     background-size: auto 100%;
     display: inline-block; }
@@ -179,4 +197,4 @@ a {
     font-size: 1.8em;
     line-height: 1.4em;
     font-weight: 900;
-    padding: 2% 7% 10% 7%; }
+    padding: 8% 20% 14% 7%; }

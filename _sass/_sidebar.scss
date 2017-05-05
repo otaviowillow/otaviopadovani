@@ -22,6 +22,13 @@
 	li {
 		font-weight: 700;
 		color: white;
+		padding-bottom: 5px;
+		img {
+			height: 20px;
+		}
+		a {
+			vertical-align: middle;
+		}
 	}
 	&.sticky {
 		position: fixed;

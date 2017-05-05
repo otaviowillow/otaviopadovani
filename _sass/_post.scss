@@ -1,5 +1,5 @@
 .post {
-	header {
+	.post-header {
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -28,5 +28,23 @@
 		@include center-align(3%, 3%, 3%, 3%, 960px);
 		background: white;
 		margin-bottom: 3%;
+		header {
+			display: flex;
+			margin-bottom: 30px;
+			h3 {
+				flex: 1 auto;
+				&:last-child {
+					text-align: right;
+				}
+			}
+			a {
+				color: #4FBEF9;
+			}
+		}
+		h1 {
+			@include title-linear-gradient(#4FBEF9, #C1EE67);
+			font-weight: 900;
+			font-size: 1.7em;
+		}
 	}
 }
