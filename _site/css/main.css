@@ -1,3 +1,10 @@
+.center {
+  float: none;
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0% 0% 0% 0%; }
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -5,15 +12,19 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
+html {
+  min-height: 100%; }
+
 body {
   color: #111;
-  background-image: linear-gradient(-135deg, #3023AE 0%, #53A0FE 47%, #B4ED50 100%);
+  background-image: linear-gradient(135deg, #3023AE 0%, #53A0FE 47%, #B4ED50 100%);
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  font-kerning: normal; }
+  font-kerning: normal;
+  min-height: 100%; }
 
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
@@ -39,7 +50,7 @@ a {
   z-index: 1; }
 
 .sidebar {
-  position: fixed;
+  position: absolute;
   top: 8%;
   left: 52%;
   font-family: "Merriweather", serif;
@@ -49,15 +60,19 @@ a {
   z-index: 2;
   pointer-events: none; }
   .sidebar aside {
-    width: 300px;
+    width: 320px;
     pointer-events: all; }
   .sidebar h3 {
     color: white;
     font-size: 1.4em;
-    font-style: italic; }
+    font-style: italic;
+    line-height: 1.6em;
+    padding: 10px 0; }
   .sidebar li {
     font-weight: 700;
     color: white; }
+  .sidebar.sticky {
+    position: fixed; }
 
 .post header {
   background-size: cover;
@@ -81,73 +96,87 @@ a {
     font-size: 2.5em; }
 .post .post-content {
   float: none;
-  max-width: 1320px;
-  width: 100%;
+  max-width: 960px;
+  width: 88%;
   margin: 0 auto;
-  padding-top: 3%;
-  background: white; }
+  padding: 3% 3% 3% 3%;
+  background: white;
+  margin-bottom: 3%; }
 
-.home {
+.home .post-list {
   float: none;
   max-width: 1320px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 3%; }
-  .home .post-list {
-    width: 90%;
-    padding: 0 2% 0 8%;
-    text-align: right; }
-  .home .post {
-    display: inline-block;
-    width: 40%;
-    padding: 0 0 3% 3%; }
+  padding: 0% 0% 0% 0%;
+  width: 90%;
+  padding: 3% 2% 0 8%;
+  text-align: right; }
+.home .post {
+  display: inline-block;
+  width: 40%;
+  padding: 0 0 3% 3%; }
+  @media screen and (max-width: 600px) {
+    .home .post {
+      width: 320px; } }
+  .home .post a {
+    text-decoration: none; }
+  .home .post figure {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 615px; }
     @media screen and (max-width: 600px) {
-      .home .post {
-        width: 320px; } }
-    .home .post a {
-      text-decoration: none; }
-    .home .post figure {
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      position: relative;
-      overflow: hidden;
-      width: 100%;
-      height: 615px; }
-      @media screen and (max-width: 600px) {
-        .home .post figure {
-          width: 220px; } }
-  .home .categories {
-    background: white;
-    display: flex;
-    padding: 10px 0; }
-    .home .categories li {
-      display: none;
-      flex: 1 auto;
-      text-align: center;
-      padding: 35px 0 5px 0; }
-    .home .categories span {
-      font-size: .5em;
-      font-weight: 700;
-      text-transform: uppercase;
-      vertical-align: bottom; }
-    .home .categories .html {
-      background: url("/uploads/html.svg") center no-repeat;
-      background-size: auto 100%;
-      display: inline-block; }
-    .home .categories .sass, .home .categories .css, .home .categories .stylus, .home .categories .less {
-      background: url("/uploads/css.svg") center no-repeat;
-      background-size: auto 100%;
-      display: inline-block; }
-    .home .categories .jquery, .home .categories .react, .home .categories .vue, .home .categories .polymer {
-      background: url("/uploads/js.svg") center no-repeat;
-      background-size: auto 100%;
-      display: inline-block; }
-    .home .categories .ui, .home .categories .ux {
-      background: url("/uploads/psd.svg") center no-repeat;
-      background-size: auto 100%;
-      display: inline-block; }
-    .home .categories .firebase {
-      background: url("/uploads/db.svg") center no-repeat;
-      background-size: auto 100%;
-      display: inline-block; }
+      .home .post figure {
+        width: 220px; } }
+.home .tags {
+  background: white;
+  display: flex;
+  padding: 10px 0; }
+  .home .tags li {
+    display: none;
+    flex: 1 auto;
+    text-align: center;
+    padding: 35px 0 5px 0; }
+  .home .tags span {
+    font-size: .5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    vertical-align: bottom; }
+  .home .tags .html, .home .tags .wp, .home .tags .jekyll {
+    background: url("/uploads/html.svg") center no-repeat;
+    background-size: auto 100%;
+    display: inline-block; }
+  .home .tags .sass, .home .tags .css, .home .tags .stylus, .home .tags .less {
+    background: url("/uploads/css.svg") center no-repeat;
+    background-size: auto 100%;
+    display: inline-block; }
+  .home .tags .jquery, .home .tags .react, .home .tags .vue, .home .tags .polymer {
+    background: url("/uploads/js.svg") center no-repeat;
+    background-size: auto 100%;
+    display: inline-block; }
+  .home .tags .ui, .home .tags .ux {
+    background: url("/uploads/psd.svg") center no-repeat;
+    background-size: auto 100%;
+    display: inline-block; }
+  .home .tags .firebase {
+    background: url("/uploads/db.svg") center no-repeat;
+    background-size: auto 100%;
+    display: inline-block; }
+.home .about {
+  background-image: linear-gradient(-180deg, #494949 0%, #222222 100%);
+  overflow: auto;
+  margin: -5% auto -10% auto; }
+  .home .about p {
+    background: transparent;
+    background: -webkit-linear-gradient(#FBDA61, #F76B1C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    float: right;
+    font-size: 1.8em;
+    line-height: 1.4em;
+    font-weight: 900;
+    padding: 2% 7% 10% 7%; }

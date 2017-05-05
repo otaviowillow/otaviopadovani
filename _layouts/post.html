@@ -6,9 +6,9 @@ layout: default
 	<header style="background-image: url({{page.header-image}})">
 		<div class="details">
 			<ul>
-				{% for category in page.categories %}
-					<li class="{{ category }}">
-						<span>{{ category }}</span>
+				{% for tag in page.tags %}
+					<li class="{{ tag }}">
+						<span>{{ tag }}</span>
 					</li>
 				{% endfor %} 
 			</ul>

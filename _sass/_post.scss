@@ -25,7 +25,8 @@
 		}
 	}
 	.post-content {
-		@include center-align;
+		@include center-align(3%, 3%, 3%, 3%, 960px);
 		background: white;
+		margin-bottom: 3%;
 	}
 }

@@ -15,7 +15,7 @@ $alternative-font: 'Merriweather', serif;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: linear-gradient(-135deg, #3023AE 0%, #53A0FE 47%, #B4ED50 100%);
+$background-color: linear-gradient(135deg, #3023AE 0%, #53A0FE 47%, #B4ED50 100%);
 $brand-color:      white;
 
 $grey-color:       #828282;
@@ -34,12 +34,23 @@ $on-laptop:        800px;
     }
 }
 
-@mixin center-align() {
+@mixin title-linear-gradient($color1, $color2) {
+    background: transparent;
+    background: -webkit-linear-gradient($color1, $color2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin center-align($padding-top: 0%, $padding-right: 0%, $padding-bottom: 0%, $padding-left: 0%, $max-width: $content-width) {
     float: none;
-    max-width: $content-width;
-    width: 100%;
+    max-width: $max-width;
+    width: 100%-($padding-right*2 + $padding-left*2);
     margin: 0 auto;
-    padding-top: 3%;
+    padding: $padding-top $padding-right $padding-bottom $padding-left;
+}
+
+.center {
+    @include center-align;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)

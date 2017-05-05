@@ -3,24 +3,62 @@ layout: default
 ---
 
 <div class="home">
-    <ul class="post-list">
+    <ul class="post-list recommended">
     {% for post in site.posts %}
-      {% if post.category == 'recommended' %}
+      {% if post.categories contains 'recommended' %}
         <li class="post">
           <a href="{{ post.url | prepend: site.baseurl }}">
             <figure style="background-image: url({{ post.header-image | prepend: site.baseurl }});">
               <img>
             </figure>
           </a>
-          <ul class="categories sss">
-            {% for category in post.tags %}
-              <li class="{{ category }}">
-                <span>{{ category }}</span>
+          <ul class="tags">
+            {% for tag in post.tags %}
+              <li class="{{ tag }}">
+                <span>{{ tag }}</span>
               </li>
             {% endfor %} 
           </ul>
         </li>
       {% endif %}
+    {% endfor %}
+  </ul>
+
+  <div class="about">
+    <div class="center">
+      <p>
+        React, Vue, Polymer <br />
+        Redux, MobX<br />
+        Sass, Stylus, LESS<br />
+        Gulp, Grunt<br />
+        Jekyll, WordPress, Joomla<br />
+        Sketch, Photoshop, Illustrator<br />
+        Firebase, Node<br />
+        <br />
+        I’ve worked with those recently.
+      </p>
+    </div>
+  </div>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% if post.categories contains 'recommended' %}
+      {% else %}
+        <li class="post">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <figure style="background-image: url({{ post.header-image | prepend: site.baseurl }});">
+              <img>
+            </figure>
+          </a>
+          <ul class="tags">
+            {% for tag in post.tags %}
+              <li class="{{ tag }}">
+                <span>{{ tag }}</span>
+              </li>
+            {% endfor %} 
+          </ul>
+        </li>
+      {% endif %} 
     {% endfor %}
   </ul>
 </div>
