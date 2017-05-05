@@ -7,6 +7,8 @@ categories:
 - ux
 - html
 - sass
+tags:
+- display
 header-image: "/uploads/medalhados.jpeg\n"
 ---
 
