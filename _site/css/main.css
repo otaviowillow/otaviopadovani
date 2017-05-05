@@ -185,7 +185,7 @@ a {
     background: url("/uploads/css.svg") center no-repeat;
     background-size: auto 100%;
     display: inline-block; }
-  .home .tags .jquery, .home .tags .react, .home .tags .vue, .home .tags .polymer, .home .tags .threejs, .home .tags .webgl {
+  .home .tags .js, .home .tags .jquery, .home .tags .react, .home .tags .vue, .home .tags .polymer, .home .tags .threejs, .home .tags .webgl {
     background: url("/uploads/js.svg") center no-repeat;
     background-size: auto 100%;
     display: inline-block; }
