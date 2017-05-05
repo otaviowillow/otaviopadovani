@@ -5,20 +5,22 @@ layout: default
 <div class="home">
     <ul class="post-list">
     {% for post in site.posts %}
-      <li class="post">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <figure style="background-image: url({{ post.header-image | prepend: site.baseurl }});">
-            <img>
-          </figure>
-        </a>
-        <ul class="categories sss">
-          {% for category in post.categories %}
-            <li class="{{ category }}">
-              <span>{{ category }}</span>
-            </li>
-          {% endfor %} 
-        </ul>
-      </li>
+      {% if post.category == 'recommended' %}
+        <li class="post">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            <figure style="background-image: url({{ post.header-image | prepend: site.baseurl }});">
+              <img>
+            </figure>
+          </a>
+          <ul class="categories sss">
+            {% for category in post.tags %}
+              <li class="{{ category }}">
+                <span>{{ category }}</span>
+              </li>
+            {% endfor %} 
+          </ul>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 </div>

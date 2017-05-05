@@ -41,14 +41,15 @@ a {
 .sidebar {
   position: fixed;
   top: 8%;
-  left: 50%;
+  left: 52%;
   font-family: "Merriweather", serif;
-  width: 1320px;
-  margin-left: -660px;
+  max-width: 1320px;
+  width: 100%;
+  transform: translate(-50%, 0);
   z-index: 2;
   pointer-events: none; }
   .sidebar aside {
-    width: 20%;
+    width: 300px;
     pointer-events: all; }
   .sidebar h3 {
     color: white;
@@ -81,6 +82,7 @@ a {
 .post .post-content {
   float: none;
   max-width: 1320px;
+  width: 100%;
   margin: 0 auto;
   padding-top: 3%;
   background: white; }
@@ -88,16 +90,20 @@ a {
 .home {
   float: none;
   max-width: 1320px;
+  width: 100%;
   margin: 0 auto;
   padding-top: 3%; }
   .home .post-list {
     width: 90%;
-    padding: 0 0 0 10%;
+    padding: 0 2% 0 8%;
     text-align: right; }
   .home .post {
     display: inline-block;
-    width: 520px;
+    width: 40%;
     padding: 0 0 3% 3%; }
+    @media screen and (max-width: 600px) {
+      .home .post {
+        width: 320px; } }
     .home .post a {
       text-decoration: none; }
     .home .post figure {
@@ -108,6 +114,9 @@ a {
       overflow: hidden;
       width: 100%;
       height: 615px; }
+      @media screen and (max-width: 600px) {
+        .home .post figure {
+          width: 220px; } }
   .home .categories {
     background: white;
     display: flex;
