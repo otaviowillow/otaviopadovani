@@ -8,6 +8,7 @@ categories:
 - firebase
 - ui
 header-image: "/uploads/opposition-header23.jpg"
+recommended: true
 ---
 
 Tessst
