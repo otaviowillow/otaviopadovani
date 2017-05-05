@@ -5,6 +5,8 @@ categories:
 - html
 - sass
 - jquery
+tags:
+- display
 header-image: "/uploads/opposition-header23.jpg"
 ---
 
