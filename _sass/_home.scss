@@ -54,7 +54,7 @@
 		.sass, .css, .stylus, .less {
 			@include category("/uploads/css.svg");
 		}
-		.js, .jquery, .react, .vue, .polymer, .threejs, .webgl {
+		.jquery, .react, .vue, .polymer, .threejs, .webgl {
 			@include category("/uploads/js.svg");
 		}
 		.ui, .ux {
