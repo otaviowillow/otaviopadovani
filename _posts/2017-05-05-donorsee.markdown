@@ -8,6 +8,8 @@ tags:
 - stylus
 - stripe
 header-image: "/uploads/donorsee.jpg"
+client: Gret Glyer
+website: http://donorsee.com
 ---
 
 DonorSee is a platform that makes it easier than ever before to fundraise and give to needs all around the world.
