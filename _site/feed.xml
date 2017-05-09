@@ -4,13 +4,19 @@
     <title>Otavio's Portfolio</title>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 May 2017 19:49:29 +0000</pubDate>
-    <lastBuildDate>Tue, 09 May 2017 19:49:29 +0000</lastBuildDate>
+    <pubDate>Tue, 09 May 2017 19:52:00 +0000</pubDate>
+    <lastBuildDate>Tue, 09 May 2017 19:52:00 +0000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>Willow</title>
-        <description>&lt;p&gt;Willow is&lt;/p&gt;
+        <description>&lt;p&gt;Willow is a small company based on Vancouver, BC that specializes in apps and games.&lt;/p&gt;
+
+&lt;p&gt;Their first game, **Save me, Hades! **is a Google Cardboard game that won the 2016 Archiact Global Jam Award.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-bird-part-at-the-site-intro-was-developed-using-threejs-a-library-that-specializes-in-making-webgl-more-accessible-to-develop-on&quot;&gt;The bird part at the site intro was developed using three.js, a library that specializes in making WebGL more accessible to develop on&lt;/h1&gt;
+
+&lt;p&gt;It was my first time using &lt;strong&gt;WebGL&lt;/strong&gt; on production and I look forward to doing more with it.&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 May 2017 06:09:00 +0000</pubDate>
         <link>http://localhost:4000/posts/willow/</link>
@@ -27,7 +33,19 @@
     
       <item>
         <title>Medalhados</title>
-        <description>&lt;p&gt;Medalhados is&lt;/p&gt;
+        <description>&lt;p&gt;Medalhados is a wine-tasting club that mails its costumers 2 different wines every month, for blind testing and evaluation.&lt;/p&gt;
+
+&lt;p&gt;The costumer can then acquire the wine they tasted - and gets ranked and other benefits from participating in the app.&lt;/p&gt;
+
+&lt;p&gt;I’ve developed this app &lt;strong&gt;full stack, including UX/UI&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;this-was-one-of-the-first-times-ive-ever-used-firebase-and-i-have-to-say-its-pretty-cool-once-you-get-the-hang-of-it&quot;&gt;This was one of the first times I’ve ever used Firebase and I have to say, it’s pretty cool once you get the hang of it.&lt;/h1&gt;
+
+&lt;p&gt;The web app was entirely build in** Vue.js **for the Front end and I’ve used **Material Design **as the UI base.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/Screen%20Shot%202017-05-09%20at%2011.10.47%20AM.png&quot; alt=&quot;Screen Shot 2017-05-09 at 11.10.47 AM.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/uploads/Screen%20Shot%202017-05-09%20at%2011.11.16%20AM.png&quot; alt=&quot;Screen Shot 2017-05-09 at 11.11.16 AM.png&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 May 2017 04:56:00 +0000</pubDate>
         <link>http://localhost:4000/posts/medalhados/</link>
@@ -40,6 +58,8 @@
         <category>stylus</category>
         
         <category>firebase</category>
+        
+        <category>material design</category>
         
         
       </item>
@@ -71,7 +91,13 @@
     
       <item>
         <title>DonorSee</title>
-        <description>&lt;p&gt;DonorSee is&lt;/p&gt;
+        <description>&lt;p&gt;DonorSee is a platform that makes it easier than ever before to fundraise and give to needs all around the world.&lt;/p&gt;
+
+&lt;p&gt;It’s easy to give and the people posting projects usually post a ton of updates, so it’s easy to track where the money given goes.&lt;/p&gt;
+
+&lt;h1 id=&quot;donorsee-is-a-large-app-with-loads-of-great-challenges-to-develop-for-stripejs-integration-authentication-and-lots-of-features-being-added-monthly&quot;&gt;DonorSee is a large app with loads of great challenges to develop for: Stripe.js integration, authentication and lots of features being added monthly.&lt;/h1&gt;
+
+&lt;p&gt;It was developed in &lt;strong&gt;vue.js&lt;/strong&gt; and it’s currently migrating to have &lt;strong&gt;vuex&lt;/strong&gt; as a state manager&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 May 2017 04:52:00 +0000</pubDate>
         <link>http://localhost:4000/posts/donorsee/</link>
