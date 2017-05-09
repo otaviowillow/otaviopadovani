@@ -1,15 +1,14 @@
 .sidebar {
 	position: absolute;
-	top: 8%;
-	left: 52%;
 	font-family: $alternative-font;
 	max-width: $content-width;
 	width: 100%;
-	transform: translate(-50%, 0);
 	z-index: 2;
 	pointer-events: none;
 	aside {
-		width: 320px;
+		width: 90%;
+		padding: 5%;
+		text-align: center;
 		pointer-events: all;
 	}
 	h3 {
@@ -31,6 +30,21 @@
 		}
 	}
 	&.sticky {
-		position: fixed;
+		position: static;
+	}
+	@include media-query($on-desktop) {
+		position: absolute;
+		top: 8%;
+		left: 52%;
+		transform: translate(-50%, 0);
+		border: 1px solid red;
+		aside {
+			width: 320px;
+			padding: 0;
+			text-align: left;
+		}
+		&.sticky {
+			position: fixed;
+		}
 	}
 }
