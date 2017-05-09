@@ -10,4 +10,10 @@ tags:
 header-image: "/uploads/donorsee.jpg"
 ---
 
-DonorSee is
+DonorSee is a platform that makes it easier than ever before to fundraise and give to needs all around the world.
+
+It's easy to give and the people posting projects usually post a ton of updates, so it's easy to track where the money given goes.
+
+# DonorSee is a large app with loads of great challenges to develop for: Stripe.js integration, authentication and lots of features being added monthly. 
+
+It was developed in **vue.js** and it's currently migrating to have **vuex** as a state manager
