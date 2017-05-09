@@ -8,4 +8,10 @@ tags:
 header-image: "/uploads/willowcreative.jpg"
 ---
 
-Willow is
+Willow is a small company based on Vancouver, BC that specializes in apps and games.
+
+Their first game, **Save me, Hades! **is a Google Cardboard game that won the 2016 Archiact Global Jam Award.
+
+The bird part at the site intro was developed using three.js, a library that specializes in making WebGL more accessible to develop on
+
+It was my first time using **WebGL** on production and I look forward to doing more with it.
