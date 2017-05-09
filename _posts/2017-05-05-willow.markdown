@@ -6,6 +6,8 @@ tags:
 - webgl
 - ui
 header-image: "/uploads/willowcreative.jpg"
+client: Willow
+website: http://willowcreative.io/
 ---
 
 Willow is a small company based on Vancouver, BC that specializes in apps and games.
