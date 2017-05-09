@@ -8,6 +8,8 @@ tags:
 - firebase
 - material design
 header-image: "/uploads/medalhados.jpg"
+client: Medalhados
+website: http://medalhados.com.br
 ---
 
 Medalhados is a wine-tasting club that mails its costumers 2 different wines every month, for blind testing and evaluation.
