@@ -174,7 +174,7 @@ a {
   @media screen and (min-width: 600px) {
     .home .post-list {
       width: 90%;
-      padding: 3% 2% 0 11%; } }
+      padding: 3% 2% 0 9%; } }
 .home .post {
   display: inline-block;
   width: 100%;
@@ -195,7 +195,6 @@ a {
     height: 415px; }
     @media screen and (min-width: 600px) {
       .home .post figure {
-        width: 220px;
         height: 615px; } }
 .home .tags {
   background: white;
