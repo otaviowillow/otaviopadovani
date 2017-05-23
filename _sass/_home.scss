@@ -7,15 +7,22 @@
 .home {
 	.post-list {
 		@include center-align;
-		width: 90%;
-		padding: 3% 2% 0 11%;
+		width: 100%;
+		padding: 0;
 		text-align: right;
+	    @include media-query($on-palm) {
+			width: 90%;
+			padding: 3% 2% 0 11%;
+	    }
 	}
 	.post {
 		display: inline-block;
-		// width: 520px;
-		width: 40%;
-		padding: 0 0 3% 3%;
+		width: 100%;
+		padding: 0;
+	    @include media-query($on-palm) {
+	        width: 40%;
+	        padding: 0 0 3% 3%;
+	    }
 		a {
 			text-decoration: none;
 		}
@@ -25,10 +32,11 @@
 			background-repeat: no-repeat;
 			position: relative;
 			overflow: hidden;
-			width: 100%;
-			height: 615px;
+			width: 100%;;
+			height: 415px;
 		    @include media-query($on-palm) {
 		        width: 220px;
+		        height: 615px;
 		    }
 		}
 	}

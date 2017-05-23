@@ -1,16 +1,28 @@
 .sidebar {
 	position: absolute;
-	top: 8%;
-	left: 52%;
+	top: 0;
+	left: 0;
 	font-family: $alternative-font;
 	max-width: $content-width;
 	width: 100%;
-	transform: translate(-50%, 0);
+	transform: translate(0, 0);
 	z-index: 2;
 	pointer-events: none;
+	@include media-query($on-palm) {
+		top: 8%;
+		left: 52%;
+		transform: translate(-50%, 0);
+	}
 	aside {
-		width: 320px;
+		width: 90%;
+		padding: 5%;
 		pointer-events: all;
+		text-align: center;
+		@include media-query($on-palm) {
+			width: 320px;
+			padding: 0;
+			text-align: left;
+		}
 	}
 	h3 {
 		color: white;
@@ -31,6 +43,9 @@
 		}
 	}
 	&.sticky {
-		position: fixed;
+		position: static;
+		@include media-query($on-palm) {
+			position: fixed;
+	    }
 	}
 }

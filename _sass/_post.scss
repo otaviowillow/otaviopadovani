@@ -4,12 +4,17 @@
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		min-height: 644px;
 	    display: flex;
 	    justify-content: flex-end;
 	    align-items: flex-end;
-	    width: 96%;
-	    padding: 0 2%;
+	    width: 90%;
+	    padding: 500px 5% 0 5%;
+		@include media-query($on-palm) {
+			
+			min-height: 644px;
+			width: 96%;
+			padding: 0 2%;
+		}
 		.details {
 			text-align: right;
 		}
@@ -21,10 +26,16 @@
 			z-index: 1;
 		}
 		h2 {
-			font-size: 6em;
+			font-size: 2.7em;
+			@include media-query($on-palm) {
+				font-size: 6em;
+			}
 		}
 		li {
-			font-size: 2.5em;
+			font-size: 1.2em;
+			@include media-query($on-palm) {
+				font-size: 2.5em;
+			}
 		}
 		&:before {
 			content: '';
