@@ -1,5 +1,5 @@
 ---
-title: Otavio Padovani
+title: Otavio Padovani - Software Developer
 timezone: UTC
 description: 13+ years of experience in Software Development, most of them as a Front End Developer.
 collections:
@@ -22,3 +22,5 @@ defaults:
   values:
     layout: page
 permalink: pretty
+description: 13+ years of experience in Software Development, most of them as a Front
+  End Developer.
