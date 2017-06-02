@@ -20,7 +20,7 @@ I've developed this app **full stack, including UX/UI**.
 
 # This was one of the first times I've ever used Firebase and I have to say, it's pretty cool once you get the hang of it.
 
-The web app was entirely build in** Vue.js **for the Front end and I've used **Material Design **as the UI base.
+The web app was entirely build in **Vue.js** for the Front end and I've used **Material Design** as the UI base.
 
 ![Screen Shot 2017-05-09 at 11.10.47 AM.png](/uploads/Screen%20Shot%202017-05-09%20at%2011.10.47%20AM.png)
 
