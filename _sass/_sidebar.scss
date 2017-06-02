@@ -9,7 +9,7 @@
 	z-index: 2;
 	pointer-events: none;
 	@include media-query($on-palm) {
-		top: 8%;
+		top: 50px;
 		left: 52%;
 		transform: translate(-50%, 0);
 	}
