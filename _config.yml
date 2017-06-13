@@ -1,7 +1,6 @@
 ---
 title: Otavio Padovani - Software Developer
-timezone: UTC
-future: false
+timezone: America/Los_Angeles
 collections:
   posts:
     title: Posts
