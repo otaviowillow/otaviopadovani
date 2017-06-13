@@ -2,17 +2,11 @@
 layout: default
 ---
 
-{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-{% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
-
 <div class="home">
     <ul class="post-list recommended">
     {% for post in site.posts %}
       {% if post.categories contains 'recommended' %}
         <li class="post">
-        {% if posttime < nowunix %}
-          <p>Asdhh</p>
-        {% endif %}
           <a href="{{ post.url | prepend: site.baseurl }}">
             <figure style="background-image: url({{ post.header-image | prepend: site.baseurl }});">
               <img>
