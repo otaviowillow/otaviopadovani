@@ -1,6 +1,0 @@
----
-title: Testing
-date: 2017-06-13 22:09:00 Z
----
-
-Testing date
