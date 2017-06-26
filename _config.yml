@@ -1,7 +1,6 @@
 ---
 title: Otavio Padovani - Software Developer
-timezone: UTC
-future: false
+timezone: America/Los_Angeles
 collections:
   posts:
     title: Posts
@@ -24,3 +23,4 @@ defaults:
 description: 13+ years of experience in Software Development, most of them as a Front
   End Developer.
 permalink: pretty
+future: false
