@@ -109,7 +109,7 @@
 		.sass, .css, .stylus, .less {
 			@include category("/uploads/css.svg");
 		}
-		.jquery, .react, .vue, .polymer, .threejs, .webgl {
+		.js, .jquery, .react, .vue, .polymer, .threejs, .webgl {
 			@include category("/uploads/js.svg");
 		}
 		.ui, .ux {
