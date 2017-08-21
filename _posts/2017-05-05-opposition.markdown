@@ -1,8 +1,6 @@
 ---
 title: Opposition
 date: 2017-05-04 21:53:00 -07:00
-categories:
-- recommended
 tags:
 - wp
 - sass
