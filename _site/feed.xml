@@ -4,9 +4,28 @@
     <title>Otavio Padovani - Software Developer</title>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Aug 2017 12:43:34 -0700</pubDate>
-    <lastBuildDate>Mon, 21 Aug 2017 12:43:34 -0700</lastBuildDate>
+    <pubDate>Mon, 21 Aug 2017 16:38:56 -0700</pubDate>
+    <lastBuildDate>Mon, 21 Aug 2017 16:38:56 -0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Fernanda Dini</title>
+        <description>&lt;p&gt;This is a portfolio done for Fernanda Dini, a VFX Artista&lt;/p&gt;
+
+&lt;h1 id=&quot;i-think-the-most-interesting-thing-about-it-is-how-it-uses-no-javascript-all-cool-effects-you-see-are-all-done-using-pseudo-classes-in-a-smart-way&quot;&gt;I think the most interesting thing about it is how it uses no Javascript: all cool effects you see are all done using pseudo-classes in a smart way&lt;/h1&gt;
+</description>
+        <pubDate>Mon, 21 Aug 2017 15:47:00 -0700</pubDate>
+        <link>http://localhost:4000/posts/fernanda-dini/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/fernanda-dini/</guid>
+        
+        <category>ux/ui</category>
+        
+        <category>html</category>
+        
+        <category>sass</category>
+        
+        
+      </item>
     
       <item>
         <title>GatR</title>
