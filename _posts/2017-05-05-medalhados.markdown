@@ -10,6 +10,7 @@ tags:
 header-image: "/uploads/medalhados.jpg"
 client: Medalhados
 website: http://medalhados.com.br
+base-color: "#670000"
 my-work:
 - name: vue.js
   image: "/uploads/js.svg"
