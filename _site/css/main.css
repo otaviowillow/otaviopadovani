@@ -186,16 +186,33 @@ a {
   .home .post a {
     text-decoration: none; }
   .home .post figure {
-    background-size: cover;
+    background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 415px; }
+    height: 415px;
+    transition: all .8s; }
     @media screen and (min-width: 600px) {
       .home .post figure {
         height: 615px; } }
+  .home .post figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 95%;
+    font-size: 4em;
+    font-weight: 900;
+    padding: 10% 5% 0 0;
+    opacity: 0;
+    transition: all .5s; }
+  .home .post:hover figure {
+    background-size: auto 105%;
+    transition: all .5s; }
+  .home .post:hover figcaption {
+    opacity: 1;
+    transition: all .5s; }
 .home .tags {
   background: white;
   display: flex;
@@ -204,32 +221,16 @@ a {
     display: none;
     flex: 1 auto;
     text-align: center;
-    padding: 35px 0 5px 0; }
+    padding: 35px 0 5px 0;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block; }
   .home .tags span {
     font-size: .5em;
     font-weight: 700;
     text-transform: uppercase;
     vertical-align: bottom; }
-  .home .tags .html, .home .tags .wp, .home .tags .jekyll {
-    background: url("/uploads/html.svg") center no-repeat;
-    background-size: auto 100%;
-    display: inline-block; }
-  .home .tags .sass, .home .tags .css, .home .tags .stylus, .home .tags .less {
-    background: url("/uploads/css.svg") center no-repeat;
-    background-size: auto 100%;
-    display: inline-block; }
-  .home .tags .jquery, .home .tags .react, .home .tags .vue, .home .tags .polymer, .home .tags .threejs, .home .tags .webgl {
-    background: url("/uploads/js.svg") center no-repeat;
-    background-size: auto 100%;
-    display: inline-block; }
-  .home .tags .ui, .home .tags .ux {
-    background: url("/uploads/psd.svg") center no-repeat;
-    background-size: auto 100%;
-    display: inline-block; }
-  .home .tags .firebase {
-    background: url("/uploads/db.svg") center no-repeat;
-    background-size: auto 100%;
-    display: inline-block; }
 .home .about {
   background-image: linear-gradient(-180deg, #494949 0%, #222222 100%);
   overflow: auto;

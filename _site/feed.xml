@@ -4,10 +4,33 @@
     <title>Otavio Padovani - Software Developer</title>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Jun 2017 22:34:53 +0000</pubDate>
-    <lastBuildDate>Tue, 13 Jun 2017 22:34:53 +0000</lastBuildDate>
+    <pubDate>Mon, 21 Aug 2017 12:43:34 -0700</pubDate>
+    <lastBuildDate>Mon, 21 Aug 2017 12:43:34 -0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>GatR</title>
+        <description>&lt;p&gt;GatR is an app meant to make events happening around you more accessible and easy to access and see&lt;/p&gt;
 
+&lt;h1 id=&quot;the-app-is-almost-done-with-the-alpha-phase-and-will-be-available-for-beta-later-in-september-so-let-me-know-if-youd-like-to-see-samples-of-the-code&quot;&gt;The app is almost done with the alpha phase and will be available for beta later in September, so let me know if you’d like to see samples of the code&lt;/h1&gt;
+
+&lt;p&gt;I was responsible for the entire** web app aspect &lt;strong&gt;of the app. It was done using **React and Redux&lt;/strong&gt;, the basic stack of 2017. The CSS is being done using &lt;strong&gt;stylized-components&lt;/strong&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Aug 2017 11:55:00 -0700</pubDate>
+        <link>http://localhost:4000/posts/gatr/</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/gatr/</guid>
+        
+        <category>react</category>
+        
+        <category>redux</category>
+        
+        <category>ux</category>
+        
+        
+        <category>recommended</category>
+        
+      </item>
+    
       <item>
         <title>Willow</title>
         <description>&lt;p&gt;Willow is a small company based on Vancouver, BC that specializes in apps and games.&lt;/p&gt;
@@ -18,19 +41,19 @@
 
 &lt;p&gt;It was my first time using &lt;strong&gt;WebGL&lt;/strong&gt; on production and I look forward to doing more with it.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 05 May 2017 06:09:00 +0000</pubDate>
+        <pubDate>Thu, 04 May 2017 23:09:00 -0700</pubDate>
         <link>http://localhost:4000/posts/willow/</link>
         <guid isPermaLink="true">http://localhost:4000/posts/willow/</guid>
-
+        
         <category>threejs</category>
-
+        
         <category>webgl</category>
-
+        
         <category>ui</category>
-
-
+        
+        
       </item>
-
+    
       <item>
         <title>Medalhados</title>
         <description>&lt;p&gt;Medalhados is a wine-tasting club that mails its costumers 2 different wines every month, for blind testing and evaluation.&lt;/p&gt;
@@ -47,23 +70,23 @@
 
 &lt;p&gt;&lt;img src=&quot;/uploads/Screen%20Shot%202017-05-09%20at%2011.11.16%20AM.png&quot; alt=&quot;Screen Shot 2017-05-09 at 11.11.16 AM.png&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 05 May 2017 04:56:00 +0000</pubDate>
+        <pubDate>Thu, 04 May 2017 21:56:00 -0700</pubDate>
         <link>http://localhost:4000/posts/medalhados/</link>
         <guid isPermaLink="true">http://localhost:4000/posts/medalhados/</guid>
-
+        
         <category>vue</category>
-
+        
         <category>ux</category>
-
+        
         <category>stylus</category>
-
+        
         <category>firebase</category>
-
+        
         <category>material design</category>
-
-
+        
+        
       </item>
-
+    
       <item>
         <title>Opposition</title>
         <description>&lt;p&gt;The biggest network for hip hop on YouTube, Opposition helps content creators generate substantial revenue streams in online video. Backed by BBTV, the largest video property behind YouTube &amp;amp; Facebook.&lt;/p&gt;
@@ -74,21 +97,19 @@
 
 &lt;p&gt;The css was compiled in &lt;strong&gt;SASS&lt;/strong&gt; and the code is pure &lt;strong&gt;semantic HTML 5&lt;/strong&gt;, focusing on reusability of elements and simple componentization. It uses &lt;strong&gt;Gulp&lt;/strong&gt; as a package manager and &lt;strong&gt;Wordpress&lt;/strong&gt; as CMS.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 05 May 2017 04:53:00 +0000</pubDate>
+        <pubDate>Thu, 04 May 2017 21:53:00 -0700</pubDate>
         <link>http://localhost:4000/posts/opposition/</link>
         <guid isPermaLink="true">http://localhost:4000/posts/opposition/</guid>
-
+        
         <category>wp</category>
-
+        
         <category>sass</category>
-
-        <category>js</category>
-
-
-        <category>recommended</category>
-
+        
+        <category>liquid</category>
+        
+        
       </item>
-
+    
       <item>
         <title>DonorSee</title>
         <description>&lt;p&gt;DonorSee is a platform that makes it easier than ever before to fundraise and give to needs all around the world.&lt;/p&gt;
@@ -99,20 +120,20 @@
 
 &lt;p&gt;It was developed in &lt;strong&gt;vue.js&lt;/strong&gt; and it’s currently migrating to have &lt;strong&gt;vuex&lt;/strong&gt; as a state manager&lt;/p&gt;
 </description>
-        <pubDate>Fri, 05 May 2017 04:52:00 +0000</pubDate>
+        <pubDate>Thu, 04 May 2017 21:52:00 -0700</pubDate>
         <link>http://localhost:4000/posts/donorsee/</link>
         <guid isPermaLink="true">http://localhost:4000/posts/donorsee/</guid>
-
+        
         <category>vue</category>
-
+        
         <category>stylus</category>
-
+        
         <category>stripe</category>
-
-
+        
+        
         <category>recommended</category>
-
+        
       </item>
-
+    
   </channel>
 </rss>
