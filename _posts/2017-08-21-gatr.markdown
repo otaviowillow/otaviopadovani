@@ -1,0 +1,27 @@
+---
+title: GatR
+date: 2017-08-21 11:55:00 -07:00
+categories:
+- recommended
+tags:
+- react
+- redux
+- ux
+header-image: "/uploads/Screen%20Shot%202017-08-21%20at%2012.03.46%20PM.png"
+client: gatr
+website: https://otaviowillow.github.io/gatr/
+my-work:
+- name: React.js
+  image: "/uploads/js.svg"
+- name: Redux
+  image: "/uploads/js.svg"
+- name: UX/UI
+  image: "/uploads/psd.svg"
+base-color: "#6E0082"
+---
+
+GatR is an app meant to make events happening around you more accessible and easy to access and see
+
+# The app is almost done with the alpha phase and will be available for beta later in September, so let me know if you'd like to see samples of the code
+
+I was responsible for the entire** web app aspect **of the app. It was done using **React and Redux**, the basic stack of 2017. The CSS is being done using **stylized-components**.

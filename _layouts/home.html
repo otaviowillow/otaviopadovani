@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <div class="home">
     <ul class="post-list recommended">
     {% for post in site.posts %}
@@ -5,13 +9,13 @@
         <li class="post">
           <a href="{{ post.url | prepend: site.baseurl }}">
             <figure style="background-image: url({{ post.header-image | prepend: site.baseurl }});">
-              <img>
+              <figcaption style="background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, {{post.base-color}});">{{post.title}}</figcaption>
             </figure>
           </a>
           <ul class="tags">
-            {% for tag in post.tags %}
-              <li class="{{ tag }}">
-                <span>{{ tag }}</span>
+            {% for element in post.my-work %}
+              <li style="background-image: url({{element.image}})">
+                <span>{{ element.name }}</span>
               </li>
             {% endfor %}
           </ul>
@@ -43,13 +47,13 @@
         <li class="post">
           <a href="{{ post.url | prepend: site.baseurl }}">
             <figure style="background-image: url({{ post.header-image | prepend: site.baseurl }});">
-              <img>
+              <figcaption style="background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, {{post.base-color}});">{{post.title}}</figcaption>
             </figure>
           </a>
           <ul class="tags">
-            {% for tag in post.tags %}
-              <li class="{{ tag }}">
-                <span>{{ tag }}</span>
+            {% for element in post.my-work %}
+              <li style="background-image: url({{element.image}})">
+                <span>{{ element.name }}</span>
               </li>
             {% endfor %}
           </ul>

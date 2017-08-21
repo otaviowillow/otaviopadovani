@@ -10,16 +10,15 @@ layout: default
 					<li class="{{ tag }}">
 						<span>{{ tag }}</span>
 					</li>
-				{% endfor %} 
+				{% endfor %}
 			</ul>
 			<h2><a href="{{ page.website }}" target="_blank">{{ page.title }}</a></h2>
 		</div>
 	</header>
-	
+
 	<div class="post-content">
 		<header class="content-header">
 			<h3>Client: <strong>{{ page.client }}</strong></h3>
-			<!-- <h3>{{ page.website }}</h3> -->
 			<h3><a href="{{ page.website }}" target="_blank">{{ page.website }}</a></h3>
 		</header>
 		{{ content }}

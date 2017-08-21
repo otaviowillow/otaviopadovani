@@ -1,6 +1,6 @@
 ---
 title: Willow
-date: 2017-05-05 06:09:00 Z
+date: 2017-05-04 23:09:00 -07:00
 tags:
 - threejs
 - webgl
@@ -8,6 +8,14 @@ tags:
 header-image: "/uploads/willowcreative.jpg"
 client: Willow
 website: http://willowcreative.io/
+base-color: "#be2045"
+my-work:
+- name: three.js
+  image: "/uploads/js.svg"
+- image: "/uploads/js.svg"
+  name: webGL
+- image: "/uploads/psd.svg"
+  name: UX/UI
 ---
 
 Willow is a small company based on Vancouver, BC that specializes in apps and games.

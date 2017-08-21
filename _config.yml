@@ -15,9 +15,13 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
-    header-image: ""
-    client: ""
-    website: ""
+    header-image: ''
+    client: ''
+    website: ''
+    base-color: ''
+    my-work:
+    - name: ''
+      image: ''
 - scope:
     path: ''
     type: pages
