@@ -7,7 +7,7 @@ tags:
 - react
 - redux
 - ux
-header-image: "/uploads/Screen%20Shot%202017-08-21%20at%2011.31.54%20AM.png"
+header-image: "/uploads/Screen%20Shot%202017-08-21%20at%2012.03.46%20PM.png"
 client: gatr
 website: https://otaviowillow.github.io/gatr/
 my-work:
