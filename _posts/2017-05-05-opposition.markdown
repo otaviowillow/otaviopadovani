@@ -8,6 +8,7 @@ tags:
 header-image: "/uploads/opposition-header23.jpg"
 client: BBTV
 website: http://opposition.tv
+base-color: "#dba703"
 my-work:
 - name: Jekyll
   image: "/uploads/html.svg"
