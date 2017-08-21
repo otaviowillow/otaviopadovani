@@ -1,6 +1,7 @@
 ---
 title: Fernanda Dini
 date: 2017-08-21 15:47:00 -07:00
+published: false
 tags:
 - ux/ui
 - html
