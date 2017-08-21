@@ -19,8 +19,8 @@ defaults:
     client: ''
     website: ''
     my-work:
-    - name: ""
-      image: ""
+    - name: ''
+      image: ''
 - scope:
     path: ''
     type: pages
