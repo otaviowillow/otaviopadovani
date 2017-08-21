@@ -9,9 +9,9 @@
             </figure>
           </a>
           <ul class="tags">
-            {% for tag in post.tags %}
-              <li class="{{ tag }}">
-                <span>{{ tag }}</span>
+            {% for element in post.my-work %}
+              <li style="background-image: url({{element.image}})">
+                <span>{{ element.name }}</span>
               </li>
             {% endfor %}
           </ul>

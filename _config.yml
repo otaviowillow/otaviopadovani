@@ -18,6 +18,9 @@ defaults:
     header-image: ''
     client: ''
     website: ''
+    my-work:
+      - name: ""
+      - image: ""
 - scope:
     path: ''
     type: pages
