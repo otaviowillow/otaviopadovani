@@ -1,6 +1,6 @@
 ---
 title: Medalhados
-date: 2017-05-05 04:56:00 Z
+date: 2017-05-04 21:56:00 -07:00
 tags:
 - vue
 - ux
@@ -10,6 +10,15 @@ tags:
 header-image: "/uploads/medalhados.jpg"
 client: Medalhados
 website: http://medalhados.com.br
+my-work:
+- name: vue.js
+  image: "/uploads/js.svg"
+- name: UX
+  image: "/uploads/psd.svg"
+- name: Stylus
+  image: "/uploads/css.svg"
+- name: Firebase
+  image: "/uploads/db.svg"
 ---
 
 Medalhados is a wine-tasting club that mails its costumers 2 different wines every month, for blind testing and evaluation.

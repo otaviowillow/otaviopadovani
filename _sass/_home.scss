@@ -1,7 +1,5 @@
 @mixin category($background: none) {
 	background: url($background) center no-repeat;
-	background-size: auto 100%;
-	display: inline-block;
 }
 
 .home {
@@ -48,27 +46,16 @@
 			flex: 1 auto;
 			text-align: center;
 			padding: 35px 0 5px 0;
+			background-size: auto 100%;
+			background-position: center;
+			background-repeat: no-repeat;
+			display: inline-block;
 		}
 		span {
 			font-size: .5em;
 			font-weight: 700;
 			text-transform: uppercase;
 			vertical-align: bottom;
-		}
-		.html, .wp, .jekyll {
-			@include category("/uploads/html.svg");
-		}
-		.sass, .css, .stylus, .less {
-			@include category("/uploads/css.svg");
-		}
-		.js, .jquery, .react, .vue, .polymer, .threejs, .webgl {
-			@include category("/uploads/js.svg");
-		}
-		.ui, .ux {
-			@include category("/uploads/psd.svg");
-		}
-		.firebase {
-			@include category("/uploads/db.svg");
 		}
 	}
 
