@@ -1,15 +1,22 @@
 ---
 title: Opposition
-date: 2017-05-05 04:53:00 Z
+date: 2017-05-04 21:53:00 -07:00
 categories:
 - recommended
 tags:
 - wp
 - sass
-- js
+- liquid
 header-image: "/uploads/opposition-header23.jpg"
 client: BBTV
 website: http://opposition.tv
+my-work:
+- name: Jekyll
+  image: "/uploads/html.svg"
+- name: SasS
+  image: "/uploads/css.svg"
+- name: liquid
+  image: "/uploads/js.svg"
 ---
 
 The biggest network for hip hop on YouTube, Opposition helps content creators generate substantial revenue streams in online video. Backed by BBTV, the largest video property behind YouTube & Facebook.
