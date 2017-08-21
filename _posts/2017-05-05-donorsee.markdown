@@ -1,6 +1,6 @@
 ---
 title: DonorSee
-date: 2017-05-05 04:52:00 Z
+date: 2017-05-04 21:52:00 -07:00
 categories:
 - recommended
 tags:
@@ -10,6 +10,13 @@ tags:
 header-image: "/uploads/donorsee.jpg"
 client: Gret Glyer
 website: http://donorsee.com
+my-work:
+- name: Vue.js
+  image: "/uploads/js.svg"
+- name: Stylus
+  image: "/uploads/css.svg"
+- name: Stripe.js
+  image: "/uploads/js.svg"
 ---
 
 DonorSee is a platform that makes it easier than ever before to fundraise and give to needs all around the world.
