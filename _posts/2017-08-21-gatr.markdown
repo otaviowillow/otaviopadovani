@@ -17,7 +17,7 @@ my-work:
   image: "/uploads/js.svg"
 - name: UX/UI
   image: "/uploads/psd.svg"
-color: "#6E0082"
+base-color: "#6E0082"
 ---
 
 GatR is an app meant to make events happening around you more accessible and easy to access and see
