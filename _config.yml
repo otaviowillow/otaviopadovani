@@ -15,6 +15,9 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
+    header-image: ""
+    client: ""
+    website: ""
 - scope:
     path: ''
     type: pages
