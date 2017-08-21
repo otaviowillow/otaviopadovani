@@ -196,6 +196,16 @@ a {
     @media screen and (min-width: 600px) {
       .home .post figure {
         height: 615px; } }
+  .home .post figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 95%;
+    font-size: 4em;
+    font-weight: 900;
+    padding: 20% 5% 0 0; }
+  .home .post:hover figure {
+    background-size: auto 110%; }
 .home .tags {
   background: white;
   display: flex;

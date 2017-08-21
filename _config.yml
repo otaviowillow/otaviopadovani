@@ -18,6 +18,7 @@ defaults:
     header-image: ''
     client: ''
     website: ''
+    base-color: ''
     my-work:
     - name: ''
       image: ''
