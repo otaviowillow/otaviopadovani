@@ -24,4 +24,4 @@ Opposition works with artists, producers, videographers, labels, and sites of al
 
 # The cool parallax effect in the home section was done  using a small library called Parallax.js
 
-The css was compiled in **SASS** and the code is pure **semantic HTML 5**, focusing on reusability of elements and simple componentization. It uses **Gulp** as a package manager and **Wordpress** as CMS.
+The css was compiled in **SASS** and the code is made in **Jekyll**, focusing on reusability of elements and simple componentization. It uses **Siteleaf** as a CMS.
