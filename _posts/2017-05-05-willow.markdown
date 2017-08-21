@@ -8,6 +8,7 @@ tags:
 header-image: "/uploads/willowcreative.jpg"
 client: Willow
 website: http://willowcreative.io/
+base-color: "#be2045"
 my-work:
 - name: three.js
   image: "/uploads/js.svg"
