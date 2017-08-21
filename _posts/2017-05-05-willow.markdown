@@ -9,12 +9,12 @@ header-image: "/uploads/willowcreative.jpg"
 client: Willow
 website: http://willowcreative.io/
 my-work:
-- tag: three.js
+- name: three.js
   image: "/uploads/js.svg"
-- tag: webGL
-  image: "/uploads/js.svg"
-- tag: UX/UI
-  image: "/uploads/psd.svg"
+- image: "/uploads/js.svg"
+  name: webGL
+- image: "/uploads/psd.svg"
+  name: UX/UI
 ---
 
 Willow is a small company based on Vancouver, BC that specializes in apps and games.
