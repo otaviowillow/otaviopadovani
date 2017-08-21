@@ -10,6 +10,7 @@ tags:
 header-image: "/uploads/donorsee.jpg"
 client: Gret Glyer
 website: http://donorsee.com
+base-color: "#ff8300"
 my-work:
 - name: Vue.js
   image: "/uploads/js.svg"
