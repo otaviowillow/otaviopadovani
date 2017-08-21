@@ -1,0 +1,16 @@
+---
+title: GatR
+date: 2017-08-21 11:55:00 -07:00
+header-image: "/uploads/Screen%20Shot%202017-08-21%20at%2011.31.54%20AM.png"
+client: gatr
+website: https://otaviowillow.github.io/gatr/
+my-work:
+- name: React.js
+  image: "/uploads/js.svg"
+- name: Redux
+  image: "/uploads/js.svg"
+- name: UX/UI
+  image: "/uploads/psd.svg"
+---
+
+Gatr is an app meant to 
