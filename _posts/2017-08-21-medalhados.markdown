@@ -1,6 +1,6 @@
 ---
 title: Medalhados
-date: 2017-05-04 21:56:00 -07:00
+date: 2017-08-21 15:51:00 -07:00
 tags:
 - vue
 - ux
