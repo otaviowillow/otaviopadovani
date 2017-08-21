@@ -204,32 +204,16 @@ a {
     display: none;
     flex: 1 auto;
     text-align: center;
-    padding: 35px 0 5px 0; }
+    padding: 35px 0 5px 0;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block; }
   .home .tags span {
     font-size: .5em;
     font-weight: 700;
     text-transform: uppercase;
     vertical-align: bottom; }
-  .home .tags .html, .home .tags .wp, .home .tags .jekyll {
-    background: url("/uploads/html.svg") center no-repeat;
-    background-size: auto 100%;
-    display: inline-block; }
-  .home .tags .sass, .home .tags .css, .home .tags .stylus, .home .tags .less {
-    background: url("/uploads/css.svg") center no-repeat;
-    background-size: auto 100%;
-    display: inline-block; }
-  .home .tags .jquery, .home .tags .react, .home .tags .vue, .home .tags .polymer, .home .tags .threejs, .home .tags .webgl {
-    background: url("/uploads/js.svg") center no-repeat;
-    background-size: auto 100%;
-    display: inline-block; }
-  .home .tags .ui, .home .tags .ux {
-    background: url("/uploads/psd.svg") center no-repeat;
-    background-size: auto 100%;
-    display: inline-block; }
-  .home .tags .firebase {
-    background: url("/uploads/db.svg") center no-repeat;
-    background-size: auto 100%;
-    display: inline-block; }
 .home .about {
   background-image: linear-gradient(-180deg, #494949 0%, #222222 100%);
   overflow: auto;
