@@ -1,7 +1,7 @@
 ---
 title: Catalyst
 date: 2017-08-21 15:51:00 -07:00
-header-image: "/uploads/ttt.jpg"
+header-image: "/uploads/catalyst.jpg"
 client: BBTV
 website: https://catalyst.viso.tv
 base-color: "#424242"
