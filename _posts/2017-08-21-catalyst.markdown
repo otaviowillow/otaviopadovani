@@ -18,4 +18,6 @@ my-work:
 
 ![maxresdefault (1).jpg](/uploads/maxresdefault%20(1).jpg)
 
-![extension1.png](/uploads/extension1.png)![Collaboration2 (1).png](/uploads/Collaboration2%20(1).png)
+![extension1.png](/uploads/extension1.png)
+
+![Collaboration2 (1).png](/uploads/Collaboration2%20(1).png)
