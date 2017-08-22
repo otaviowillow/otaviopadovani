@@ -1,6 +1,10 @@
 ---
 title: Catalyst
 date: 2017-08-21 15:51:00 -07:00
+tags:
+- Backbone
+- Polymer
+- Javascript
 header-image: "/uploads/catalyst-97988c.jpg"
 client: BBTV
 website: https://catalyst.viso.tv
