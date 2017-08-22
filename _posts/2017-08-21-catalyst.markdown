@@ -1,7 +1,7 @@
 ---
 title: Catalyst
 date: 2017-08-21 15:51:00 -07:00
-header-image: "/uploads/ng2.jpg"
+header-image: "/uploads/catalyst-chrome-bg.jpg"
 client: BBTV
 website: https://catalyst.viso.tv
 base-color: "#424242"
@@ -15,3 +15,7 @@ my-work:
 **VISO Catalyst** helps YouTubers promote & optimize their channels and videos to increase views and get more subscribers.
 
 # I've worked on it using Backbone originally. I've also had a lot of experience with Polymer refactoring portions of it
+
+![maxresdefault (1).jpg](/uploads/maxresdefault%20(1).jpg)
+
+![extension1.png](/uploads/extension1.png)![Collaboration2 (1).png](/uploads/Collaboration2%20(1).png)
