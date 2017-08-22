@@ -7,7 +7,7 @@ tags:
 - react
 - redux
 - ux
-header-image: "/uploads/Screen%20Shot%202017-08-21%20at%2012.03.46%20PM.png"
+header-image: "/uploads/gatr.jpg"
 client: gatr
 website: https://otaviowillow.github.io/gatr/
 base-color: "#6E0082"
