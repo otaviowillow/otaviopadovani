@@ -2,9 +2,9 @@
 title: Opposition
 date: 2017-05-04 21:53:00 -07:00
 tags:
-- wp
 - sass
 - liquid
+- Jekyll
 header-image: "/uploads/opposition-header23.jpg"
 client: BBTV
 website: http://opposition.tv
