@@ -264,3 +264,6 @@ a {
     @media screen and (min-width: 600px) {
       .home .about p {
         width: 40%; } }
+    .home .about p span {
+      -webkit-text-fill-color: ghostwhite;
+      vertical-align: text-bottom; }

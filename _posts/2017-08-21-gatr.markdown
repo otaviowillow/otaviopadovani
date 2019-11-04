@@ -1,8 +1,6 @@
 ---
 title: GatR
 date: 2017-08-21 11:55:00 -07:00
-categories:
-- recommended
 tags:
 - react
 - redux

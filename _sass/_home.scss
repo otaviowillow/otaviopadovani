@@ -96,6 +96,10 @@
 			@include media-query($on-palm) {
 				width: 40%;
 			}
+			span {
+				-webkit-text-fill-color: ghostwhite;
+				vertical-align: text-bottom;
+			}
 		}
 	}
 }

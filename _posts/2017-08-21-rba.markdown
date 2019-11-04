@@ -1,0 +1,29 @@
+---
+title: Ritchie Bros     
+date: 2017-05-04 21:52:00 -07:00
+categories:
+- recommended
+tags:
+- React
+- Styled Components
+- Next JS
+header-image: "/uploads/rba.jpg"
+client: RBA
+website: http://rbauction.com
+base-color: "#ff8300"
+my-work:
+- name: React
+  image: "/uploads/js.svg"
+- name: 💅
+  image: "/uploads/css.svg"
+- name: Next.js
+  image: "/uploads/js.svg"
+---
+
+DonorSee is a platform that makes it easier than ever before to fundraise and give to needs all around the world.
+
+It's easy to give and the people posting projects usually post a ton of updates, so it's easy to track where the money given goes.
+
+# DonorSee is a large app with loads of great challenges to develop for: Stripe.js integration, authentication and lots of features being added monthly. 
+
+It was developed in **vue.js** and it's currently migrating to have **vuex** as a state manager
