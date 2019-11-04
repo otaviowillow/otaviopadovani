@@ -10,7 +10,7 @@
 		text-align: right;
 	    @include media-query($on-palm) {
 			width: 90%;
-			padding: 3% 2% 0 9%;
+			padding: 3% 2% 0 15%;
 	    }
 	}
 	.post {
@@ -92,7 +92,7 @@
 			line-height: 1.4em;
 			font-weight: 900;
 			width: auto;
-			padding: 8% 20% 14% 7%;
+			padding: 15% 20% 25% 7%;
 			@include media-query($on-palm) {
 				width: 40%;
 			}

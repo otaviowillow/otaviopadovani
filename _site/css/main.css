@@ -64,6 +64,21 @@ a {
       top: 50px;
       left: 52%;
       transform: translate(-50%, 0); } }
+  .sidebar h1 {
+    font-family: 'Lato', sans-serif; }
+    .sidebar h1 a {
+      display: inline-block; }
+    .sidebar h1 strong {
+      display: inline-block;
+      width: 100%;
+      letter-spacing: -34px;
+      font-weight: 900;
+      font-size: 14rem;
+      line-height: 13rem; }
+    .sidebar h1 span {
+      display: inline-block;
+      width: 100%;
+      font-size: 2.4rem; }
   .sidebar aside {
     width: 90%;
     padding: 5%;
@@ -174,7 +189,7 @@ a {
   @media screen and (min-width: 600px) {
     .home .post-list {
       width: 90%;
-      padding: 3% 2% 0 9%; } }
+      padding: 3% 2% 0 15%; } }
 .home .post {
   display: inline-block;
   width: 100%;
@@ -245,7 +260,7 @@ a {
     line-height: 1.4em;
     font-weight: 900;
     width: auto;
-    padding: 8% 20% 14% 7%; }
+    padding: 15% 20% 25% 7%; }
     @media screen and (min-width: 600px) {
       .home .about p {
         width: 40%; } }
